@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.1.0',
+        'version' => '1.1.0.0',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'codeinwp/blocks-animation',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'codeinwp/blocks-animation' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'codeinwp/gutenberg-animation' => array(
+            'pretty_version' => '1.0.8',
+            'version' => '1.0.8.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../codeinwp/gutenberg-animation',
+            'aliases' => array(),
+            'reference' => '77ce9ca0b1598e3645f10ce516ccfcefc33b0704',
+            'dev_requirement' => false,
+        ),
+        'codeinwp/themeisle-sdk' => array(
+            'pretty_version' => '3.2.21',
+            'version' => '3.2.21.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
+            'aliases' => array(),
+            'reference' => 'cafd016b61ec0928c0234e312046782a77c14318',
+            'dev_requirement' => false,
+        ),
+    ),
+);

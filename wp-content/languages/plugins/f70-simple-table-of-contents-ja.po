@@ -1,0 +1,44 @@
+# Translation of Plugins - F70 Simple Table of Contents - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - F70 Simple Table of Contents - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-11 08:38:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - F70 Simple Table of Contents - Stable (latest release)\n"
+
+#: includes/meta_box.php:81
+msgid "Headers level to include in the table of contents"
+msgstr "目次に含める見出し"
+
+#: includes/meta_box.php:71
+msgid "Display the table of contents"
+msgstr "目次を表示する"
+
+#: includes/meta_box.php:15 includes/display.php:102
+msgid "Table of contents"
+msgstr "目次"
+
+#. Author URI of the plugin
+msgid "https://factory70.com"
+msgstr "https://factory70.com"
+
+#. Author of the plugin
+msgid "Nao Matsuo"
+msgstr "Nao Matsuo"
+
+#. Description of the plugin
+msgid "Display a table of contents in your posts by automatically generated from the headings. No Javascript code, simple to use."
+msgstr "記事に目次を表示します。目次は見出しから自動生成されます。余分な Javascript なし、簡単に使えます。"
+
+#. Plugin URI of the plugin
+msgid "https://factory70.com/simple-table-of-contents/"
+msgstr "https://factory70.com/simple-table-of-contents/"
+
+#. Plugin Name of the plugin
+msgid "F70 Simple Table of Contents"
+msgstr "シンプル目次 (F70 Simple Table of Contents)"
