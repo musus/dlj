@@ -4,7 +4,10 @@
  * 
  * @package Vilva
 */
-
+if( ! function_exists( 'vilva_dynamic_css') ) :
+/**
+ * Vilva Dynamic css
+ */
 function vilva_dynamic_css(){
     
     $primary_font    = get_theme_mod( 'primary_font', 'Nunito Sans' );
@@ -87,6 +90,7 @@ function vilva_dynamic_css(){
            
     <?php echo "</style>";
 }
+endif;
 add_action( 'wp_head', 'vilva_dynamic_css', 99 );
 
 /**

@@ -303,7 +303,6 @@ function vilva_primary_nagivation(){ ?>
                 <span class="toggle-bar"></span>
                 <span class="toggle-bar"></span>
             </button>
-            <span class="toggle-text"><?php esc_html_e( 'Menu', 'vilva' )?></span>
         <?php } ?>
         <div class="primary-menu-list main-menu-modal cover-modal" data-modal-target-string=".main-menu-modal">
             <button class="close close-main-nav-toggle" data-toggle-target=".main-menu-modal" data-toggle-body-class="showing-main-menu-modal" aria-expanded="false" data-set-focus=".main-menu-modal"></button>
@@ -1179,19 +1178,21 @@ function vilva_author_desc(){
     if ( ! $ed_author || $comment ) {
         ?>
         <div class="article-meta">
-            <?php 
-            if ( ! $ed_author ) { ?>
-                <span class="byline" itemprop="author">
-                    <span class="author">
-                        <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" class="url fn">
-                            <?php echo get_avatar( get_the_author_meta( 'ID' ), 70 ); ?>
-                            <?php the_author_meta( 'display_name'); ?>
-                        </a>
-                    </span>
-                </span>
+            <div class="article-inner-meta">
                 <?php 
-            }
-            if( $comment ) vilva_comment_count(); ?>
+                if ( ! $ed_author ) { ?>
+                    <span class="byline" itemprop="author">
+                        <span class="author">
+                            <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" class="url fn">
+                                <?php echo get_avatar( get_the_author_meta( 'ID' ), 70 ); ?>
+                                <?php the_author_meta( 'display_name'); ?>
+                            </a>
+                        </span>
+                    </span>
+                    <?php 
+                }
+                if( $comment ) vilva_comment_count(); ?>
+            </div>
         </div>
         <?php
     }

@@ -1,16 +1,27 @@
-# <!=Copyright (C) 2020 Blossom Themes
+# <!=Copyright (C) 2022 Blossom Themes
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Vilva 1.1.2\n"
+"Project-Id-Version: Vilva 1.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/vilva\n"
-"POT-Creation-Date: 2020-12-25 07:49:40+00:00\n"
+"POT-Creation-Date: 2022-02-22 09:28:17+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
 
 #: 404.php:19
@@ -361,81 +372,81 @@ msgstr ""
 msgid "Secondary"
 msgstr ""
 
-#: inc/custom-functions.php:323
+#: inc/custom-functions.php:330
 msgid "Name"
 msgstr ""
 
-#: inc/custom-functions.php:323
+#: inc/custom-functions.php:330
 msgid "Name*"
 msgstr ""
 
-#: inc/custom-functions.php:325
+#: inc/custom-functions.php:332
 msgid "Email"
 msgstr ""
 
-#: inc/custom-functions.php:325
+#: inc/custom-functions.php:332
 msgid "Email*"
 msgstr ""
 
-#: inc/custom-functions.php:327
+#: inc/custom-functions.php:334
 msgid "Website"
 msgstr ""
 
-#: inc/custom-functions.php:340
+#: inc/custom-functions.php:347
 msgid "Comment"
 msgstr ""
 
-#: inc/custom-functions.php:378
+#: inc/custom-functions.php:385
 msgid "Looking for Something?"
 msgstr ""
 
-#: inc/custom-functions.php:407
+#: inc/custom-functions.php:414
 msgid "%1$s Category: %2$s %3$s"
 msgstr ""
 
-#: inc/custom-functions.php:413
+#: inc/custom-functions.php:420
 msgid "%1$s Tag: %2$s %3$s"
 msgstr ""
 
-#: inc/custom-functions.php:421
+#: inc/custom-functions.php:428
 msgid "%1$s Year: %2$s %3$s"
 msgstr ""
 
-#: inc/custom-functions.php:427
+#: inc/custom-functions.php:434
 msgid "%1$s Month: %2$s %3$s"
 msgstr ""
 
-#: inc/custom-functions.php:433
+#: inc/custom-functions.php:440
 msgid "%1$s Day: %2$s %3$s"
 msgstr ""
 
-#: inc/custom-functions.php:439
+#: inc/custom-functions.php:446
 msgid "%1$s Archives: %2$s %3$s"
 msgstr ""
 
-#: inc/custom-functions.php:446
+#: inc/custom-functions.php:453
 msgid "%1$s: %2$s"
 msgstr ""
 
-#: inc/custom-functions.php:449
+#: inc/custom-functions.php:456
 msgid "%1$sArchives%2$s"
 msgstr ""
 
-#: inc/custom-functions.php:763
+#: inc/custom-functions.php:770
 msgid "Congratulations!"
 msgstr ""
 
-#: inc/custom-functions.php:764
+#: inc/custom-functions.php:771
 msgid ""
 "%1$s is now installed and ready to use. Click below to see theme "
 "documentation, plugins to install and other details to get started."
 msgstr ""
 
-#: inc/custom-functions.php:765
+#: inc/custom-functions.php:772
 msgid "Go to the getting started."
 msgstr ""
 
-#: inc/custom-functions.php:766
+#: inc/custom-functions.php:773
 msgid "Dismiss"
 msgstr ""
 
@@ -657,7 +668,7 @@ msgstr ""
 msgid "Enable to show breadcrumb in inner pages."
 msgstr ""
 
-#: inc/customizer/general.php:461 inc/extras.php:392
+#: inc/customizer/general.php:461 inc/extras.php:391
 msgid "Home"
 msgstr ""
 
@@ -966,74 +977,70 @@ msgstr ""
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
-#: inc/extras.php:306
-msgid "Menu"
-msgstr ""
-
-#: inc/extras.php:310 inc/extras.php:356
+#: inc/extras.php:309 inc/extras.php:355
 msgid "Mobile"
 msgstr ""
 
-#: inc/extras.php:332 inc/extras.php:378
+#: inc/extras.php:331 inc/extras.php:377
 msgid "Click here to add a menu"
 msgstr ""
 
-#: inc/extras.php:584
+#: inc/extras.php:583
 msgid "Search Results for \""
 msgstr ""
 
-#: inc/extras.php:584
+#: inc/extras.php:583
 msgid "\""
 msgstr ""
 
-#: inc/extras.php:589 inc/extras.php:591 inc/extras.php:593 inc/extras.php:598
-#: inc/extras.php:600 inc/extras.php:605 inc/partials.php:81
+#: inc/extras.php:588 inc/extras.php:590 inc/extras.php:592 inc/extras.php:597
+#: inc/extras.php:599 inc/extras.php:604 inc/partials.php:83
 msgid "Y"
 msgstr ""
 
-#: inc/extras.php:591 inc/extras.php:593 inc/extras.php:600
+#: inc/extras.php:590 inc/extras.php:592 inc/extras.php:599
 msgid "m"
 msgstr ""
 
-#: inc/extras.php:591 inc/extras.php:600
+#: inc/extras.php:590 inc/extras.php:599
 msgid "F"
 msgstr ""
 
-#: inc/extras.php:593
+#: inc/extras.php:592
 msgid "d"
 msgstr ""
 
-#: inc/extras.php:714
+#: inc/extras.php:713
 msgid "Page %s"
 msgstr ""
 
-#: inc/extras.php:762
+#: inc/extras.php:761
 msgid "404 Error - Page Not Found"
 msgstr ""
 
-#: inc/extras.php:801
+#: inc/extras.php:800
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: inc/extras.php:804
+#: inc/extras.php:803
 msgid ""
 "<b class=\"fn\" itemprop=\"creator\" itemscope "
 "itemtype=\"http://schema.org/Person\">%s</b>"
 msgstr ""
 
-#: inc/extras.php:808
+#: inc/extras.php:807
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: inc/extras.php:963
+#: inc/extras.php:962
 msgid "Choose Category"
 msgstr ""
 
-#: inc/extras.php:1133
+#: inc/extras.php:1132
 msgid "Search Page"
 msgstr ""
 
-#: inc/extras.php:1134
+#: inc/extras.php:1133
 msgid "Search Results For: "
 msgstr ""
 
@@ -1246,15 +1253,15 @@ msgid ""
 "%1$s demo."
 msgstr ""
 
-#: inc/getting-started/tabs/plugins-panel.php:37
+#: inc/getting-started/tabs/plugins-panel.php:41
 msgid "Free Plugins"
 msgstr ""
 
-#: inc/getting-started/tabs/plugins-panel.php:38
+#: inc/getting-started/tabs/plugins-panel.php:42
 msgid "These Free Plugins might be handy for you."
 msgstr ""
 
-#: inc/getting-started/tabs/plugins-panel.php:48
+#: inc/getting-started/tabs/plugins-panel.php:52
 msgid "Version %s"
 msgstr ""
 
@@ -1397,11 +1404,11 @@ msgstr ""
 msgid "Choose Sidebar Template"
 msgstr ""
 
-#: inc/partials.php:80
+#: inc/partials.php:82
 msgid "&copy; Copyright "
 msgstr ""
 
-#: inc/partials.php:83
+#: inc/partials.php:85
 msgid "All Rights Reserved. "
 msgstr ""
 
@@ -1821,6 +1828,10 @@ msgid "BlossomThemes Social Feed"
 msgstr ""
 
 #: inc/tgmpa/recommended-plugins.php:66
+msgid "AffiliateX"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:71
 msgid "Regenerate Thumbnails"
 msgstr ""
 
@@ -2087,32 +2098,32 @@ msgctxt "font style"
 msgid "Monospace"
 msgstr ""
 
-#: inc/custom-functions.php:375
+#: inc/custom-functions.php:382
 msgctxt "placeholder"
 msgid "Try searching for what you were looking for&hellip;"
 msgstr ""
 
-#: inc/custom-functions.php:375
+#: inc/custom-functions.php:382
 msgctxt "placeholder"
 msgid "Type & Hit Enter&hellip;"
 msgstr ""
 
-#: inc/custom-functions.php:382
+#: inc/custom-functions.php:389
 msgctxt "submit button"
 msgid "Search"
 msgstr ""
 
-#: inc/custom-functions.php:419 inc/custom-functions.php:421
+#: inc/custom-functions.php:426 inc/custom-functions.php:428
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: inc/custom-functions.php:425 inc/custom-functions.php:427
+#: inc/custom-functions.php:432 inc/custom-functions.php:434
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr ""
 
-#: inc/custom-functions.php:431 inc/custom-functions.php:433
+#: inc/custom-functions.php:438 inc/custom-functions.php:440
 msgctxt "daily archives date format"
 msgid "F j, Y"
 msgstr ""

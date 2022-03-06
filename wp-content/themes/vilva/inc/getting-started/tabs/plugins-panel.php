@@ -26,7 +26,11 @@
 		'blossomthemes-instagram-feed' => array(
 			'slug' 		=> 'blossomthemes-instagram-feed',
 			'filename' 	=> 'blossomthemes-instagram-feed.php',
-		),                
+		),
+		'affiliatex' => array(
+			'slug'      => 'affiliatex',
+			'filename' 	=> 'affiliatex.php',
+		),                 
 		'regenerate-thumbnails' => array(
 			'slug' 		=> 'regenerate-thumbnails',
 			'filename' 	=> 'regenerate-thumbnails.php',

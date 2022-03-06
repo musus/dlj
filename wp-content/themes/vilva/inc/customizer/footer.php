@@ -36,7 +36,7 @@ function vilva_customize_register_footer( $wp_customize ) {
     );
     
     $wp_customize->selective_refresh->add_partial( 'footer_copyright', array(
-        'selector' => '.site-info .copyright',
+        'selector' => '.footer-b .copyright>span',
         'render_callback' => 'vilva_get_footer_copyright',
     ) );
         

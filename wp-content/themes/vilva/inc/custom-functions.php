@@ -131,6 +131,9 @@ function vilva_setup() {
 
     // Add support for responsive embeds.
     add_theme_support( 'responsive-embeds' );
+
+    // Remove widget block.
+    remove_theme_support( 'widgets-block-editor' );
 }
 endif;
 add_action( 'after_setup_theme', 'vilva_setup' );
@@ -272,6 +275,10 @@ function vilva_body_classes( $classes ) {
 
     if( is_singular( 'post' ) ){        
         $classes[] = 'single-style-four';
+    }
+
+    if ( is_single() || is_page() ) {        
+        $classes[] = 'underline';
     }
 
     $classes[] = vilva_sidebar( true );

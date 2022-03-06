@@ -74,6 +74,8 @@ if( ! function_exists( 'vilva_get_footer_copyright' ) ) :
 */
 function vilva_get_footer_copyright(){
     $copyright = get_theme_mod( 'footer_copyright' );
+
+    echo '<span>'; 
     if( $copyright ){
         echo wp_kses_post( $copyright );
     }else{
@@ -82,5 +84,6 @@ function vilva_get_footer_copyright(){
         echo ' <a href="' . esc_url( home_url( '/' ) ) . '">' . esc_html( get_bloginfo( 'name' ) ) . '</a>. ';
         esc_html_e( 'All Rights Reserved. ', 'vilva' );
     }
+    echo '</span>';
 }
 endif;

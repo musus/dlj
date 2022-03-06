@@ -62,6 +62,11 @@ function vilva_register_required_plugins() {
 			'slug'      => 'blossomthemes-instagram-feed',
 			'required'  => false,
 		),
+		array(
+			'name'      => __( 'AffiliateX', 'vilva' ),
+			'slug'      => 'affiliatex',
+			'required'  => false,
+		),
         array(
 			'name'      => __( 'Regenerate Thumbnails', 'vilva' ),
 			'slug'      => 'regenerate-thumbnails',

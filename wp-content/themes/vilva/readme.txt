@@ -3,8 +3,8 @@
 Contributors: blossomthemes
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 5.6
-Stable tag: 1.1.2
+Tested up to: 5.8
+Stable tag: 1.1.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, footer-widgets, custom-background, custom-header, custom-menu, custom-logo, featured-images, threaded-comments, full-width-template, rtl-language-support, translation-ready, theme-options, e-commerce
@@ -56,15 +56,15 @@ Icons License: CC BY 4.0
 Fonts License: SIL OFL 1.1
 Source: http://fontawesome.io/
 
-Selectize, Copyright © 2013–2016 Brian Reavis & Contributors
+Selectize, Copyright ï¿½ 2013ï¿½2016 Brian Reavis & Contributors
 License: Apache License, Version 2.0
 Source: https://github.com/selectize/selectize.js
 
-Sifter, Copyright © 2013–2015 Brian Reavis & Contributors
+Sifter, Copyright ï¿½ 2013ï¿½2015 Brian Reavis & Contributors
 License: Apache License, Version 2.0
 Source: https://github.com/brianreavis/sifter.js/
 
-Microplugin, Copyright © 2013 Brian Reavis & Contributors
+Microplugin, Copyright ï¿½ 2013 Brian Reavis & Contributors
 License: Apache License, Version 2.0
 Source: https://github.com/brianreavis/microplugin.js
 
@@ -93,7 +93,21 @@ License: CC0, https://stocksnap.io/license, https://pxhere.com/en/license
 All other images including icon image used in screenshot and images used in customizer settings are self created and are under the GPL.
 
 == Changelog ==
-    
+    1.1.6 - February 22, 2021
+        * Recommended : AffiliateX plugin
+        * Fixed : Footer partial refresh 
+
+    1.1.5 - Oct 8, 2021
+        * Fixed : css refinements for child theme
+
+    1.1.4 - July 21, 2021
+        * Removed: block widget for WordPress 5.8 compatibility
+        * Fixed: design issue of single posts sticky meta
+
+    1.1.3 - June 14, 2021
+        * Fixed: CTA widget title color issue
+        * Fixed: Newsletter issue 
+
     1.1.2 - December 25, 2020
         * Fixed: customizer load issue
 

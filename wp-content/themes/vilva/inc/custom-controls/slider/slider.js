@@ -14,7 +14,7 @@ wp.customize.controlConstructor['vilva-slider'] = wp.customize.Control.extend({
 		});
 
 		// Handle the reset button
-		jQuery( '.slider-reset' ).click( function() {
+		jQuery( '.slider-reset' ).on( 'click', function() {
 			thisInput    = jQuery( this ).closest( 'label' ).find( 'input' );
 			inputDefault = thisInput.data( 'reset_value' );
 			thisInput.val( inputDefault );
