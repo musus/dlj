@@ -44,7 +44,7 @@ class Optimize extends BlogFloatingButton{
 		$this->optimizemeta_table = $wpdb->prefix.self::OPTMIZEMETA_TABLE;
 
 		$this->init_var();
-		$this->check_license_key();
+		//$this->check_license_key();
 
 		$this->report = new Tracking();
 

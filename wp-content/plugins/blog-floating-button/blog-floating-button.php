@@ -3,9 +3,9 @@
 Plugin Name: Blog Floating Button
 Plugin URI: https://bfb-plugin.com/
 Description: 「Blog Floating Button(BFB)」はブログ内にフロートボタンを簡単に実装できるプラグインです。
-Version: 1.4.9
+Version: 1.4.11
 Author: Meril Inc.
-Author URI: https://affi-note.com/
+Author URI: https://meril.co.jp/
 License: GPL2
 */
 ?>

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Layout Grid
  * Description: Let any blocks align to a global grid
- * Version:     1.7
+ * Version:     1.8
  * Author:      Automattic
  * Author URI:  https://automattic.com
  * License:     GPL v2 or later

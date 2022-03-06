@@ -3,7 +3,7 @@
 Plugin Name:	F70 Simple Table of Contents
 Plugin URI:	https://factory70.com/simple-table-of-contents/
 Description:	Display a table of contents in your posts by automatically generated from the headings. No Javascript code, simple to use.
-Version:	1.1.1
+Version:	1.1.2
 Author:	Nao Matsuo
 Author URI:	https://factory70.com
 License:	GPL v2 or later

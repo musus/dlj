@@ -161,7 +161,7 @@
 		</tr>
 		<?php if( $this->is_activation ): ?>
 		<tr>
-			<th>非表示の期間(PRO版)<span class="bfb_popup_help" data-message="BFBの閉じるボタンをユーザーが押した場合にBFBを非表示にする期間を変更できます。初期値は7日間です。0以上の整数を半角で入力してください。">?</span></th>
+			<th>非表示の期間(PRO版)<span class="bfb_popup_help" data-message="BFBの閉じるボタンをユーザーが押した場合にBFBを非表示にする期間を変更できます。初期値は7日間です。1以上の整数を半角で入力してください。">?</span></th>
 			<td>
 				<?php
 					if( !$this->bfb_cookie_hide_span ){

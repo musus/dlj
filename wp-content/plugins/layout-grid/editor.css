@@ -592,12 +592,13 @@ body.is-resizing [data-type="jetpack/layout-grid"] {
 /**
  * Visual Glitches
  */
-[data-type="jetpack/layout-grid-column"] > .block-editor-block-list__block-edit,
-[data-type="jetpack/layout-grid-column"] > .block-editor-block-list__block-edit > [data-block],
 .wp-block-jetpack-layout-grid-column {
-  height: 100%;
   border-top: 0.05px solid transparent;
   border-bottom: 0.05px solid transparent; }
+
+[data-type="jetpack/layout-grid-column"] {
+  display: grid;
+  height: 100%; }
 
 [data-type="jetpack/layout-grid"][data-align="full"] {
   display: flex;
@@ -606,25 +607,29 @@ body.is-resizing [data-type="jetpack/layout-grid"] {
   [data-type="jetpack/layout-grid"][data-align="full"] .is-block-content {
     width: 100%; }
 
-.wp-block-jetpack-layout-grid-column > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
-  margin: 28px 0; }
-
-.wp-block:not(.is-selected):not(.has-child-selected) .block-editor-default-block-appender {
-  display: inherit; }
-
-[data-type="jetpack/layout-grid"]:not(.is-selected):not(.has-child-selected) .block-editor-default-block-appender {
-  display: none; }
-
 /**
  * Inspector Controls
  */
-.jetpack-layout-grid-columns .block-editor-block-styles__item-preview {
-  position: relative; }
-  .jetpack-layout-grid-columns .block-editor-block-styles__item-preview svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+.jetpack-layout-grid-columns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 12px; }
+  .jetpack-layout-grid-columns .block-editor-block-styles__item-preview {
+    background: none;
+    display: flex;
+    justify-content: center;
+    min-height: auto; }
+    .jetpack-layout-grid-columns .block-editor-block-styles__item-preview svg {
+      fill: currentColor; }
+  .jetpack-layout-grid-columns .block-editor-block-styles__item {
+    border-radius: 2px;
+    flex: 1;
+    cursor: pointer;
+    text-align: center; }
+    .jetpack-layout-grid-columns .block-editor-block-styles__item.is-active {
+      background-color: #1e1e1e;
+      color: #fff; }
 
 .components-button-group + .jetpack-layout-grid-settings {
   margin-top: 16px; }
@@ -638,6 +643,11 @@ body.is-resizing [data-type="jetpack/layout-grid"] {
     margin-bottom: 0; }
   .components-panel__body .jetpack-layout-grid-settings__group .components-base-control:first-child {
     margin-right: 16px; }
+
+.jetpack-layout-grid-help {
+  font-size: 12px;
+  font-style: normal;
+  color: #757575; }
 
 /**
  * Placeholder options

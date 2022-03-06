@@ -16,3 +16,10 @@ add_action( 'init', function() {
 
 	wp_set_script_translations( 'jetpack-layout-grid', 'layout-grid' );
 } );
+
+add_filter(
+	'excerpt_allowed_wrapper_blocks',
+	function( $allowed_wrapper_blocks ) {
+		return array_merge( $allowed_wrapper_blocks, array( 'jetpack/layout-grid', 'jetpack/layout-grid-column' ) );
+	}
+);

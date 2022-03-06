@@ -3,8 +3,8 @@ Contributors: niao70
 Donate link: https://factory70.com/simple-table-of-contents#donate
 Tags: table of contents, toc, navigation, links, indexes
 Requires at least: 5.0
-Tested up to: 5.8
-Stable tag: 1.1.1
+Tested up to: 5.9
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,9 @@ List styles has changed. Please check your custom CSS for F70STOC.
 
 
 == Changelog ==
+
+= 1.1.2 =
+* Tested up to WP 5.9.
 
 = 1.1.1 =
 * Tested up to WP 5.8.

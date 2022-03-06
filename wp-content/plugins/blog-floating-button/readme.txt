@@ -3,9 +3,9 @@ Contributors:1meril
 Donate link: https://bfb-plugin.com/
 Tags: announcement,banner,footer banner,floating banner,fixed banner
 Requires at least: WordPress 5.3.2
-Tested up to: WordPress 5.4
+Tested up to: WordPress 5.8
 Requires PHP: 7.1
-Stable tag: 1.4.9
+Stable tag: 1.4.11
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,7 +66,14 @@ Blog Floating Button(BFB)は、ブログにフロートボタンを簡単に実�
 
 == Changelog ==
 
-= 1.4.8 =
+= 1.4.11 =
+軽微な不具合を修正
+
+= 1.4.10 =
+ヘルプへの追記
+軽微な不具合を修正
+
+= 1.4.9 =
 個別投稿更新時にPRO版ライセンスキーなどがクリアされる不具合を解消
 
 = 1.4.8 =
