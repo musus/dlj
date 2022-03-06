@@ -1,0 +1,113 @@
+[
+    {
+        "label": "top",
+        "url": "https://dlj.home/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "concept",
+        "url": "https://dlj.home/concept/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "blog",
+        "url": "https://dlj.home/blog/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "company",
+        "url": "https://dlj.home/company/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "gic-c-lotion",
+        "url": "https://dlj.home/gic-c-lotion/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "baby-peptide",
+        "url": "https://dlj.home/baby-peptide/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "baby-peptide-starter-kit",
+        "url": "https://dlj.home/baby-peptide-starter-kit/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "products",
+        "url": "https://dlj.home/products/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "sile",
+        "url": "https://dlj.home/daily_skincare/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "page",
+        "url": "https://dlj.home/baby-peptide/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    },
+    {
+        "label": "contact",
+        "url": "https://dlj.home/contact/",
+        "delay": 2000,
+        "postInteractionWait": 0,
+        "selectorExpansion": true,
+        "expect": 0,
+        "misMatchThreshold" : 0.1,
+        "requireSameDimensions": true
+    }
+
+]
