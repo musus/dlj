@@ -46,6 +46,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 <?php astra_body_top(); ?>
 <?php wp_body_open(); ?>
+<a
+        class="skip-link screen-reader-text"
+        href="#content"
+        role="link"
+        title="<?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?>">
+	<?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?>
+</a>
+
 <div 
 <?php
 	echo astra_attr(
@@ -57,8 +65,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	);
 	?>
 >
-	<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?></a>
-	<?php 
+	<?php
 	astra_header_before(); 
 
 	astra_header(); 
